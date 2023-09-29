@@ -1,4 +1,4 @@
-﻿生成启动时间为 2023/9/29 15:08:54。
+﻿生成启动时间为 2023/9/29 18:31:50。
 日志记录详细程度设置为: Normal。     1>项目“D:\1A编程存储地址\software\Calculator\Calculator.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“x64\Debug\Calculator.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
@@ -18,8 +18,11 @@
        QtMocSetModified:
        正在跳过目标“QtMocSetModified”，因为所有输出文件相对于输入文件而言都是最新的。
        ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /Ix64\Debug\uic /Ix64\Debug\moc /I"C:\Users\NASHIR~1\AppData\Local\Temp\2fpf5eia.zdo" /ID:\qt\5.12.12\msvc2017_64\include /ID:\qt\5.12.12\msvc2017_64\include\QtWidgets /ID:\qt\5.12.12\msvc2017_64\include\QtGui /ID:\qt\5.12.12\msvc2017_64\include\QtANGLE /ID:\qt\5.12.12\msvc2017_64\include\QtCore /I"C:\Users\NASHIR~1\AppData\Local\Temp\2fpf5eia.zdo" /I/include /I"D:\qt\5.12.12\msvc2017_64\mkspecs\win32-msvc" /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D _WINDOWS /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W1 /Gd /TP /FC /errorReport:prompt -Zc:rvalueCast -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus calculator.cpp
+         calculator.cpp
          所有输出均为最新。
-         所有输出均为最新。
+       QtNatvis:
+       正在跳过目标“QtNatvis”，因为所有输出文件相对于输入文件而言都是最新的。
        Link:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1A编程存储地址\software\Calculator\x64\Debug\Calculator.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib D:\qt\5.12.12\msvc2017_64\lib\Qt5Widgetsd.lib D:\qt\5.12.12\msvc2017_64\lib\Qt5Guid.lib D:\qt\5.12.12\msvc2017_64\lib\Qt5Cored.lib D:\qt\5.12.12\msvc2017_64\lib\qtmaind.lib shell32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1A编程存储地址\software\Calculator\x64\Debug\Calculator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1A编程存储地址\software\Calculator\x64\Debug\Calculator.lib" /MACHINE:X64 /NATVIS:"x64\Debug\\qt.natvis" "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\calculator.obj
          x64\Debug\main.obj
@@ -35,4 +38,4 @@
     0 个警告
     0 个错误
 
-已用时间 00:00:00.43
+已用时间 00:00:01.15
