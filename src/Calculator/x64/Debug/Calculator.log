@@ -1,0 +1,38 @@
+﻿生成启动时间为 2023/9/29 15:08:54。
+日志记录详细程度设置为: Normal。     1>项目“D:\1A编程存储地址\software\Calculator\Calculator.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\Calculator.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“x64\Debug\Calculator.tlog\unsuccessfulbuild”执行 Touch 任务。
+       QtUicSetModified:
+       正在跳过目标“QtUicSetModified”，因为所有输出文件相对于输入文件而言都是最新的。
+       QtRccSetModified:
+       正在跳过目标“QtRccSetModified”，因为所有输出文件相对于输入文件而言都是最新的。
+       QtRccFilterSetModified:
+       正在跳过目标“QtRccFilterSetModified”，因为它没有输出。
+       QtRccFilter:
+       正在跳过目标“QtRccFilter”，因为它没有输出。
+       QtQmlSetModified:
+       正在跳过目标“QtQmlSetModified”，因为它没有输出。
+       QtQmlCacheItem:
+       正在跳过目标“QtQmlCacheItem”，因为它没有输出。
+       QtMocSetModified:
+       正在跳过目标“QtMocSetModified”，因为所有输出文件相对于输入文件而言都是最新的。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1A编程存储地址\software\Calculator\x64\Debug\Calculator.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib D:\qt\5.12.12\msvc2017_64\lib\Qt5Widgetsd.lib D:\qt\5.12.12\msvc2017_64\lib\Qt5Guid.lib D:\qt\5.12.12\msvc2017_64\lib\Qt5Cored.lib D:\qt\5.12.12\msvc2017_64\lib\qtmaind.lib shell32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1A编程存储地址\software\Calculator\x64\Debug\Calculator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1A编程存储地址\software\Calculator\x64\Debug\Calculator.lib" /MACHINE:X64 /NATVIS:"x64\Debug\\qt.natvis" "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\calculator.obj
+         x64\Debug\main.obj
+         x64\Debug\qrc_calculator.obj
+         x64\Debug\moc_calculator.obj
+         Calculator.vcxproj -> D:\1A编程存储地址\software\Calculator\x64\Debug\Calculator.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\Calculator.tlog\unsuccessfulbuild”。
+         正在对“x64\Debug\Calculator.tlog\Calculator.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\1A编程存储地址\software\Calculator\Calculator.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.43
