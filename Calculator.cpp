@@ -11,7 +11,7 @@
 using namespace std;
 #define PI acos(-1.0)
 
-Calculator::Calculator(QWidget *parent)
+Calculator::Calculator(QWidget* parent)
     : QWidget(parent)
     , ui(new Ui::CalculatorClass())
 {
@@ -20,7 +20,7 @@ Calculator::Calculator(QWidget *parent)
 }
 double f(double a)
 {
-    double b = a * PI / 180;
+    double  b = a * PI / 180;
     return b;
 }
 
@@ -46,18 +46,18 @@ void Calculator::iniUI()
 
 void Calculator::onButtonGroupClicked(QAbstractButton* btn)
 {
-    float val = ui-> lineEdit->text().toFloat();
+    float val = ui->lineEdit->text().toFloat();
     //输出到控制台，但是没显示出
     //qInfo() << btn ->text();
     QString name = btn->text();
     //如果是数字，直接显示出来
 
-    if (name >= "0" && name <= "9"||name ==".")
+    if (name >= "0" && name <= "9" || name == ".")
     {
-        if (ui->lineEdit->text() =="0" && name != ".")
+        if (ui->lineEdit->text() == "0" && name != ".")
             ui->lineEdit->clear();
         //
-        if(prevBtn=="+")
+        if (prevBtn == "+")
         {
             ui->lineEdit->clear();
         }
@@ -79,14 +79,29 @@ void Calculator::onButtonGroupClicked(QAbstractButton* btn)
         }
         ui->lineEdit->insert(name);
     }
-    
+
     else if (name == "sin")
     {
         ui->lineEdit->clear();
         vec[0] = val;
-        vec[1] == "sin";
-        vec[2] == 0;
-    }//暂未实现三角函数
+        vec[1] = "sin";
+        vec[2] = 0;
+    }
+    else if (name == "cos")
+    {
+        ui->lineEdit->clear();
+        vec[0] = val;
+        vec[1] = "cos";
+        vec[2] = 0;
+    }
+    else if (name == "tan")
+    {
+        ui->lineEdit->clear();
+        vec[0] = val;
+        vec[1] = "tan";
+        vec[2] = 0;
+    }
+
     //
     else if (name == "+")
     {
@@ -128,6 +143,7 @@ void Calculator::onButtonGroupClicked(QAbstractButton* btn)
         }
     }
 
+
     //
     else if (name == "=")
     {
@@ -153,9 +169,18 @@ void Calculator::onButtonGroupClicked(QAbstractButton* btn)
         {
             vec[4] = vec[0].toInt() % vec[2].toInt();
         }
+
         else if (vec[1] == "sin")
         {
             vec[4] = sin(f(vec[0].toDouble()));
+        }
+        else if (vec[1] == "cos")
+        {
+            vec[4] = cos(f(vec[0].toDouble()));
+        }
+        else if (vec[1] == "tan")
+        {
+            vec[4] = tan(f(vec[0].toDouble()));
         }
         ui->lineEdit->setText(vec[4].toString());
     }
@@ -165,8 +190,8 @@ void Calculator::onButtonGroupClicked(QAbstractButton* btn)
     {
         vec.clear();	    // 调用 clear清理 vector之后 把size设置成0，capacity不变。不会释放vector内存
         vec.resize(5);		// 重新设置vector的大小
-        ui->lineEdit->clear(); 
-        ui->exp_lineEdit->clear(); 
+        ui->lineEdit->clear();
+        ui->exp_lineEdit->clear();
     }
     else if (name == "CE")
     {
@@ -174,7 +199,7 @@ void Calculator::onButtonGroupClicked(QAbstractButton* btn)
     }
     else if (name == "Del")
     {
-        ui->lineEdit->setCursorPosition(ui->lineEdit->cursorPosition()-1);
+        ui->lineEdit->setCursorPosition(ui->lineEdit->cursorPosition() - 1);
         ui->lineEdit->del();
     }
 
